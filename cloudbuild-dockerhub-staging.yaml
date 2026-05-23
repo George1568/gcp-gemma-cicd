@@ -47,9 +47,9 @@ options:
 
 # Substitutions for customizable values
 substitutions:
-  _DOCKER_IMAGE: 'your-dockerhub-username/your-image:latest'
-  _SERVICE_NAME: 'dockerhub-app'
+  _DOCKER_IMAGE: '03sarath/gemma:3.0'
+  _SERVICE_NAME: 'Gemma-ai'
   _REGION: 'us-central1'
   _PORT: '8080'
-  _MEMORY: '512Mi'
-  _CPU: '1' 
+  _MEMORY: '8Gi'
+  _CPU: '2'  
